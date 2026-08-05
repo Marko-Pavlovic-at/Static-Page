@@ -1,0 +1,15 @@
+:root{
+    --bg: #FCE9EF;
+    --bg-soft: #F5C4D6;
+    --surface: #FFFFFF;
+    --text: #2A2530;
+    --text-muted: #6E5A66;
+
+}
+
+
+body{
+    background-color: var(--bg);
+    color: var(--text);
+
+}
