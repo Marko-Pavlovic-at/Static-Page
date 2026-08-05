@@ -12,6 +12,8 @@ steps:
 - html header and footer and main DONE
 - link css DONE
 - basic styling DONE
+- build about section DONE
+- build likes section
 
 
 
