@@ -43,3 +43,23 @@ h2{
 h1{
     font-size: 4rem;
 }
+
+ul{
+    list-style: none;
+    font-size: 2rem;
+}
+
+.items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
