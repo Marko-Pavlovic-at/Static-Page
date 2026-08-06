@@ -4,21 +4,23 @@
     --surface: #FFFFFF;
     --text: #2A2530;
     --text-muted: #6E5A66;
+    --accent-rose: #EC7DA6;
 
 }
 
 
 body{
-    padding: 2rem;
+    padding: 2rem 2rem 0;
     background-color: var(--bg);
     color: var(--text);
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0;
 
 }
 
-#hero-img{
+.img{
     width: 40rem;
 }
 
@@ -62,4 +64,13 @@ ul{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--accent-rose);
+    width: 100vw;
+    position: relative;
 }

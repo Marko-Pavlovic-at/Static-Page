@@ -13,7 +13,8 @@ steps:
 - link css DONE
 - basic styling DONE
 - build about section DONE
-- build likes section
+- build likes section DONE
+- build Dislike Section
 
 
 
