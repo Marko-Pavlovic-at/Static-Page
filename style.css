@@ -1,76 +1,94 @@
-:root{
-    --bg: #FCE9EF;
-    --bg-soft: #F5C4D6;
-    --surface: #FFFFFF;
-    --text: #2A2530;
-    --text-muted: #6E5A66;
-    --accent-rose: #EC7DA6;
-
+:root {
+  --bg: #FCE9EF;
+  --bg-soft: #F5C4D6;
+  --surface: #FFFFFF;
+  --text: #2A2530;
+  --text-muted: #6E5A66;
+  --accent-rose: #EC7DA6;
 }
 
+body {
+  padding: 2rem 2rem 0;
+  background-color: var(--bg);
+  color: var(--text);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
 
-body{
-    padding: 2rem 2rem 0;
-    background-color: var(--bg);
-    color: var(--text);
-    display: flex;
+.img {
+  width: 100%;
+  max-width: 40rem;
+}
+
+#hero {
+  display: flex;
+  background-color: var(--bg-soft);
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+p {
+  font-size: 1.5rem;
+  color: var(--text-muted);
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+ul {
+  list-style: none;
+  font-size: 2rem;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--accent-rose);
+  width: calc(100% + 4rem);
+  margin: 0 -2rem;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 1rem 1rem 0;
+  }
+
+  #hero {
     flex-direction: column;
-    align-items: center;
-    margin: 0;
+    padding: 1rem;
+  }
 
-}
+  footer {
+    width: calc(100% + 2rem);
+    margin: 0 -1rem;
+  }
 
-.img{
-    width: 40rem;
-}
-
-#hero{
-    display: flex;
-    background-color: var(--bg-soft);
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    padding: 2rem;
-}
-
-p{
-    font-size: 1.5rem;
-    color: var(--text-muted);
-}
-
-h2{
-    font-size: 3rem;
-}
-
-h1{
-    font-size: 4rem;
-}
-
-ul{
-    list-style: none;
-    font-size: 2rem;
-}
-
-.items{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.item{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--accent-rose);
-    width: 100vw;
-    position: relative;
+  h1 { font-size: 2.5rem; }
+  h2 { font-size: 2rem; }
+  ul { font-size: 1.25rem; }
+  p  { font-size: 1.125rem; }
 }
